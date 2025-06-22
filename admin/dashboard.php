@@ -72,5 +72,10 @@ $top_words = array_slice($word_counts, 0, 10);
         </tr>
         <?php endwhile; ?>
     </table>
+
+    <form method="POST" action="logout.php">
+    <button type="submit">Logout</button>
+</form>
+
 </body>
 </html>
